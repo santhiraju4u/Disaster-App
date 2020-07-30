@@ -45,6 +45,12 @@ The idea is to develop a Mobile Application to report any disaster (water leakag
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
+### Replace API keys in the following files with your own API keys
+1. env.js - Google API key in config
+1. constants/ApiKeys.js - Firebase for Database Storage API Key and the bucket details
+1. app.json - Google API key in config
+1. store/actions/auth.js - Firebase authentication key
+
 ### Installing
 Please use the apk file shared for installation
 
