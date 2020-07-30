@@ -3,7 +3,7 @@ export default {
     apiKey: "<YOUR FIREBASE APIKEY>",
     authDomain: "",
     databaseURL: "<YOUR DATABASE URL>",
-    projectId: "hackathon-9c653",
+    projectId: "<YOUR PROJECT NAME>",
     storageBucket: "<YOUR STORAGE BUCKET NAME>",
     messagingSenderId: "",
   },
