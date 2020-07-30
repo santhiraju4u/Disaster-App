@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "myDisasterResiliencyProject",
+    "description": "To report any disaster (water leakage/fire/bush fires/oil leakage/pollution etc) with the photo and location. Based on the location and the pic we send notification to the concerned authorities to take action.",
+    "slug": "app-DisasterResiliencyProject",
+    "privacy": "public",
+    "sdkVersion": "37.0.0",
+    "platforms": ["ios", "android"],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/playstore.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.hackathon.DisasterResiliency",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hackathon.DisasterResiliency",
+      "versionCode": 1,
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB_4qYxoiwF-o6sO8rF4a53DomgYNpoDoU"
+        }
+      },
+
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/playstore.png",
+        "backgroundColor": "#171717"
+      }
+    }
+  }
+}

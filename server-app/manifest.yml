@@ -1,0 +1,7 @@
+applications:
+- name: disaster-resiliancy-app
+  random-route: true
+  command: npm start
+  path: .
+  memory: 256M
+  instances: 1

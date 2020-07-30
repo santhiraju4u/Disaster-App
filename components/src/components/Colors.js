@@ -1,0 +1,16 @@
+
+const Colors = {
+  black: '#000000',
+  night: '#333333',
+  charcoal: '#474747',
+  DARKGRAY: '#7D7D7D',
+  lightishgray: '#9D9D9D',
+  lightgray: '#D6D6D6',
+  smoke: '#EEEEEE',
+  white: '#FFFFFF',
+  ypsDark: '#47546E',
+  yps: '#637599',
+  ypsLight: '#7B92BF',
+  cosmic: '#963D32'
+};
+export default Colors;
