@@ -5,7 +5,7 @@ export const LOGOUT = "LOGOUT";
 export const signup = (email, password) => {
   return async (dispatch) => {
     const response = await fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyC4l-75X14atNvOqNdVPYDIf1pbTuItSiA",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=<YOUR FIREBASE AUTHENTICATION KEY>",
       {
         method: "POST",
         headers: {
@@ -41,7 +41,7 @@ export const logout = () => {
 export const login = (email, password) => {
   return async (dispatch) => {
     const response = await fetch(
-      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyC4l-75X14atNvOqNdVPYDIf1pbTuItSiA",
+      "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=<YOUR FIREBASE AUTHENTICATION KEY>",
       {
         method: "POST",
         headers: {
