@@ -1,10 +1,10 @@
 export default {
   FirebaseConfig: {
-    apiKey: "AIzaSyC4l-75X14atNvOqNdVPYDIf1pbTuItSiA",
+    apiKey: "<YOUR FIREBASE APIKEY>",
     authDomain: "",
-    databaseURL: "https://hackathon-9c653.firebaseio.com/",
+    databaseURL: "<YOUR DATABASE URL>",
     projectId: "hackathon-9c653",
-    storageBucket: "gs://hackathon-9c653.appspot.com",
+    storageBucket: "<YOUR STORAGE BUCKET NAME>",
     messagingSenderId: "",
   },
 };
