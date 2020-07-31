@@ -52,7 +52,8 @@ These instructions will get you a copy of the project up and running on your loc
 1. store/actions/auth.js - Firebase authentication key
 
 ### Installing
-Please use the apk file shared for installation
+Please use the apk file at the below location  for installation
+https://www.amazon.com/clouddrive/share/MM3kEPjAF62yYQTYDYsKqppzZ5MlwjPPMVJmVJp1Wgq
 
 ## Built with
 
