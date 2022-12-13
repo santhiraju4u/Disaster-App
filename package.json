@@ -23,7 +23,7 @@
     "expo-image-picker": "~8.1.0",
     "expo-linear-gradient": "^8.1.0",
     "expo-location": "~8.1.0",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "firebase": "^7.9.0",
     "moment": "^2.27.0",
     "react": "~16.9.0",
